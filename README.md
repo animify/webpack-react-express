@@ -8,6 +8,18 @@ A lightweight, minimal, plug and play boilerplate. [Express](https://expressjs.c
 4. Run `npm start`
 5. Open up `http://localhost:3000` in your browser
 
+## What you'll encounter
+- Webpack 3
+- Webpack dev middleware
+- React
+- React Router
+- React Hot Loader
+- Express
+- Blossom UI
+- Babel ES6
+- Eslint
+- Stylus (Plugins include: Nib, Jeet & Rupture)
+
 ## Features
 ### Client and server
 Combines an environment of both a client, powered by React, and a server, powered by Express.
@@ -22,7 +34,7 @@ Hot reloading on both the client and server means you can spend more time on get
 Split into modular client and server directories, its dead easy to set up from scratch or plug in another project.
 
 ### Style ready
-Fully embedded Stylus ecosystem with plugins backed up by the [Blossom](https://getblossom.io) framework.
+Fully embedded Stylus ecosystem with plugins backed up by the [Blossom UI](https://getblossom.io) framework.
 
 ## Issues
 Please add a detailed issue to the issues section should you encounter one.

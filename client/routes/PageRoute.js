@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import PageComponent from './../../components/Page';
+import PageComponent from './../components/Page';
 
-const DashboardRoute = () => (
+const PageRoute = () => (
     <Route path="/page" component={PageComponent} />
 );
 
-export default DashboardRoute;
+export default PageRoute;

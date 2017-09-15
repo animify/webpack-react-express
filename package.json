@@ -7,7 +7,7 @@
         "start:server": "rimraf ./dist && webpack --config  webpack.config.server.js",
         "start:client": "webpack-dev-server --config webpack.config.client.js",
         "start": "rimraf ./dist && npm-run-all --parallel start:server start:client",
-        "eslint": "eslint .",
+        "eslint": "eslint ."
     },
     "author": "Stefan Mansson <st.mansson@icloud.com> (http://mansson.io)",
     "license": "MIT",
@@ -23,6 +23,7 @@
         "react-router": "^4.2.0",
         "react-router-dom": "^4.2.2",
         "socket.io": "^1.7.2",
+        "webpack": "^3.5.6",
         "webcomponents.js": "^0.7.23"
     },
     "devDependencies": {
@@ -51,7 +52,6 @@
         "start-server-webpack-plugin": "^2.2.0",
         "style-loader": "^0.18.2",
         "stylus-loader": "^3.0.1",
-        "webpack": "^3.5.6",
         "webpack-dev-middleware": "^1.12.0",
         "webpack-dev-server": "^2.8.1",
         "webpack-hot-middleware": "^2.19.1",

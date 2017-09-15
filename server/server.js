@@ -22,7 +22,7 @@ app.use(require('webpack-hot-middleware')(compiler, {
 
 app.get('/api', (req, res) => {
     res.send({
-        message: 'Api route'
+        message: 'You can also access routes defined in Express.'
     });
 });
 
