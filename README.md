@@ -2,7 +2,6 @@
 A lightweight, minimal, plug and play boilerplate. [Express](https://expressjs.com/) for the backend, [React](https://facebook.github.io/react/) for the client, tied together with [Webpack](https://webpack.github.io/) and themed with [Blossom](https://getblossom.io/).
 
 ## Get started
----
 1. Clone this repo using `git  clone https://github.com/aotik/webpack-react-express.git`
 2. Move to the working directory `cd webpack-react-express`
 3. Run `npm install` to install the appropriate node modules
